@@ -1,0 +1,48 @@
+/* Main window background */
+QWidget {
+    background-color: #121212;   /* deep dark gray */
+    color: #ffffff;               /* white text for any labels */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* QLineEdit - display */
+QLineEdit {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 2px solid #3c3c3c;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+/* QPushButton - normal */
+QPushButton {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 2px solid #3c3c3c;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* Hover effect */
+QPushButton:hover {
+    background-color: #3c3c3c;
+    border: 2px solid #5c5c5c;
+}
+
+/* Pressed effect */
+QPushButton:pressed {
+    background-color: #5c5c5c;
+    border: 2px solid #7c7c7c;
+}
+
+/* Optional - make "equals" button look special */
+QPushButton#equalsButton {
+    background-color: #0078d7;  /* bright blue */
+    border: 2px solid #005fa3;
+}
+
+QPushButton#equalsButton:hover {
+    background-color: #1e90ff;
+}
